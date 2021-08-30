@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-size: 16px;
+}
+
+#login, #password {
+  display: flex;
+  border: 1px solid #F5F5F5;
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  width: 640px;
+  height: 60px;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 250px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field input {
+  margin-bottom: 20px;
+}
+.form-field legend {
+  margin-bottom: 10px;
+}
+
+.form-checkbox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 640px;
+}
+
+.form-button {
+  margin-top: 40px;
+}
+.form-button button {
+  display: flex;
+  padding: 19px 293px;
+  border: 1px solid #4A67FF;
+  border-radius: 8px;
+  background-color: #4A67FF;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
